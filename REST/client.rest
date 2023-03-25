@@ -1,0 +1,46 @@
+### Buscar todo os ID
+GET http://localhost:3333/user
+
+### Buscar ID especifico
+GET http://localhost:3333/user
+
+### Buscar ID especifico
+GET http://localhost:3333/user/
+
+### Inserir Informação no banco
+POST http://localhost:3333/user
+content-type: application/json
+
+{
+    "nome": "Henrique Bernard Wagner",
+    "endereco": "Rua José Demeterco, numero 70",
+    "cep":"82970010",
+    "saldo": "50,00",
+    "operacao": [{}]
+}
+
+### Deletar um usuario do banco
+DELETE  http://localhost:3333/user/
+
+{
+    "nome": "Henrique Bernard Wagner",
+    "cpf": "12354717997",
+    "endereco": "Rua José Demeterco, numero 70",
+    "cep":"82970010",
+    "saldo": "50,00",
+    "operacao": [{}]
+}
+
+### Atualizar conta
+PUT http://localhost:3333/user/
+
+{
+    "nome": "Henrique Bernard Wagner",
+    "endereco": "Rua José Demeterco, numero 70",
+    "cep":"82970010",
+    "saldo": "50,00",
+    "operacao": [{}]
+}
+
+
+
